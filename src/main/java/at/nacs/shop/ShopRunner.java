@@ -21,6 +21,7 @@ public class ShopRunner {
             System.out.println("---FIND---");
             List<Item> all = repository.findAll();
             all.forEach(System.out::println);
+
         };
     }
 }
